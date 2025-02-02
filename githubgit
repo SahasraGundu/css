@@ -1,0 +1,75 @@
+PS C:\Users\ADMIN\Documents\css> git init
+Initialized empty Git repository in C:/Users/ADMIN/Documents/css/.git/
+PS C:\Users\ADMIN\Documents\css> git add .
+PS C:\Users\ADMIN\Documents\css> git commit -m "initial commit"
+[main (root-commit) 5b52ea9] initial commit
+ 54 files changed, 2786 insertions(+)
+ create mode 100644 .vscode/settings.json      
+ create mode 100644 amazonclone/amazon_logo.png
+ create mode 100644 amazonclone/box1_image.jpg 
+ create mode 100644 amazonclone/box2_image.jpg 
+ create mode 100644 amazonclone/box3_image.jpg 
+ create mode 100644 amazonclone/box4_image.jpg 
+ create mode 100644 amazonclone/box5_image.jpg 
+ create mode 100644 amazonclone/box6_image.jpg
+ create mode 100644 amazonclone/box7_image.jpg
+ create mode 100644 amazonclone/box8_image.jpg
+ create mode 100644 amazonclone/hero_image.jpg
+ create mode 100644 amazonclone/homepage.css
+ create mode 100644 amazonclone/homepage.html
+ create mode 100644 amazonclone/notes.html
+ create mode 100644 chapter1/index.html
+ create mode 100644 chapter1/notes.html
+ create mode 100644 chapter1/ps1.html
+ create mode 100644 chapter1/ps2.html
+ create mode 100644 chapter1/style.css
+ create mode 100644 chapter1/style1.css
+ create mode 100644 chapter1/style2.css
+ create mode 100644 chapter2/index.html
+ create mode 100644 chapter2/index1.html
+ create mode 100644 chapter2/notes.html
+ create mode 100644 chapter2/ps1.html
+ create mode 100644 chapter2/ps2.html
+ create mode 100644 chapter2/style.css
+ create mode 100644 chapter2/style1.css
+ create mode 100644 chapter2/style2.css
+ create mode 100644 chapter2/styles.css
+ create mode 100644 chapter3/index.html
+ create mode 100644 chapter3/index1.html
+ create mode 100644 chapter3/index2.html
+ create mode 100644 chapter3/notes.html
+ create mode 100644 chapter3/peony1.jpg
+ create mode 100644 chapter3/ps1.css
+ create mode 100644 chapter3/ps1.html
+ create mode 100644 chapter3/style.css
+ create mode 100644 chapter3/style1.css
+ create mode 100644 chapter3/style2.css
+ create mode 100644 chapter4/index.html
+ create mode 100644 chapter4/notes.html
+ create mode 100644 chapter4/ps1.css
+ create mode 100644 chapter4/ps2.html
+ create mode 100644 chapter4/style.css
+ create mode 100644 chapter5/index.html
+ create mode 100644 chapter5/index1.html
+ create mode 100644 chapter5/notes.html
+ create mode 100644 chapter5/ps1.css
+ create mode 100644 chapter5/ps1.html
+ create mode 100644 chapter5/style.css
+ create mode 100644 chapter5/style1.css
+PS C:\Users\ADMIN\Documents\css> git remote add origin https://github.com/SahasraGundu/css
+PS C:\Users\ADMIN\Documents\css> git remote -v
+origin  https://github.com/SahasraGundu/css (fetch)
+origin  https://github.com/SahasraGundu/css (push)
+PS C:\Users\ADMIN\Documents\css> 
+
+PS C:\Users\ADMIN\Documents\css> git push origin main
+Enumerating objects: 63, done.
+Counting objects: 100% (63/63), done.  
+Delta compression using up to 4 threads
+Compressing objects: 100% (59/59), done.
+Writing objects: 100% (63/63), 2.39 MiB | 58.00 KiB/s, done.  
+Total 63 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/SahasraGundu/css
+ * [new branch]      main -> main
+PS C:\Users\ADMIN\Documents\css> 
