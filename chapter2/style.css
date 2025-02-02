@@ -1,0 +1,60 @@
+#mydiv{
+    height:100px; 
+    /* it doesnot appear on the screen but we can see throught inspect */
+    width:100px;
+    background-color: pink;
+    /* so that we can see how much is the height of div using background color */
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    text-align: right;
+    /* gives at right side of div not right of whole document */
+}
+
+h1{
+    height:50px;
+    width:200px;
+    background-color: pink;
+    /* border-width: 3px;
+    border-style: dashed;
+    border-color: black; */
+    border: 2px solid black;
+    /* so using only single line for all three properties */
+    text-align: center;
+    /* heading goes to center of box not to center of document */
+
+}
+
+.myclass{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    border: 2px solid black;
+    /* border-radius: 15px; */
+
+    /* if height and width are same keep border-radius:50%; to get circles */
+
+}
+
+div{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    border: 2px solid black;
+   
+    /* (inside content box) */
+    /* padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+
+    /* to see all these inspect them */
+
+    padding:25px;
+    /* or padding:25,25,25,25; */
+
+    margin:25px;
+
+    /* margin appears outside content  */
+
+}

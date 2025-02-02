@@ -1,0 +1,42 @@
+div{
+    background-color: pink;
+    display:inline;
+    /* so the div behave like inline; */
+}
+    
+
+
+button{
+    display:block;
+    /* button now behaves like block it takes 100% width so it goes to next line*/
+}
+
+.myclass{
+    width:100px;
+    height:100px;
+    margin:25px;
+    padding:25px
+    /* upto here they come in different lines becoz they occupy 
+    100% width they are block  */
+    /* display:inline; */
+    /* (so it becomes side by side as we made them inline) */
+    /* if we use display:inline-block; we can set margin and padding also we can observe in inspect*/
+
+    /* display:none; used to hide the html elemnet(we write but it will be hidden) */
+    /* if we do visibilty :hidden; then the elemnt is hidden but the space is kept as it is  */
+}
+
+h1{
+    background-color: rgba(255,0,0,0.2);
+}
+
+h2{
+    background-color: rgba(255,0,0,0.6);
+}
+
+h3{
+    background-color: rgba(255,0,0,0.9);
+}
+
+
+

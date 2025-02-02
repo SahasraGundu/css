@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width:600px;
+    height: 600px;
+    display: flex;
+    /* (evry box and container goes to left side ) */
+    flex-direction:row;
+    /* (main axis is row (left to right arranged)) */
+    /* flex-direction: row-reverse; */
+    /* (row reverse means row only but right to left reversed and arranged ) */
+    /* flex-direction: column;
+    (arranged vertically (top to bottom)) */
+    /* (and also sets to the size of height of container ) */
+     /* flex-direction: column-reverse;
+    (from bottom to top vertically) */
+
+    /* justify-content: flex-start;
+    (arranged totally right side from starting)
+    justify-content: flex-end;
+    (arranged toatlly to the left in the same direction)
+    justify-content:center;
+    (arranged at the center for total div) */
+
+    /* for column it works as top and bottom */
+
+    /* justify-content: space-around;
+    (adjusts the remaining space acc to div width and height and spaces between two boxes
+    is two times the space of corner space) */
+
+    /* justify-content: space-between;
+    (adjusts corner boxes to corner and increaes space btwn boxes) */
+
+    /* justify-content: space-evenly;
+    (all spaces are even ) */
+
+    justify-content: center;
+/* 
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center; */
+    /* (arranges evrything at center with spaces)
+    align-content: flex-start;
+    (goes to top)
+    if end goes to bottom */
+
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+
+
+
+
+
+}
+
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+    height: 200px;
+    /* align-self: flex-end; */
+    /* (all items will be at top but box2 comes to end ) */
+    flex-shrink: 2;
+    /* (box 2 gets decreases in width by 2 times of reamaining boxex width) */
+}
+#box3{
+    background-color:darkkhaki;
+    height: 75px;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+    /* align-self: flex-end; */
+}
+
+
+

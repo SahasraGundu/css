@@ -1,0 +1,37 @@
+/* 
+
+1)
+
+div{
+    background-color: blue;
+}
+
+we can also use this id slector
+
+#box{
+    background-color: blue; we dont use this becoz there is only one div for this question
+} */
+
+
+
+
+/* 
+
+2)
+.heading{
+    color:red;
+}
+
+h1,h2,h3{
+    color:red;  selectors can work with comma for multiple elements
+} */
+
+
+
+/* button{
+    background-color: green;
+}
+
+so first we get stylesheet's color ie green and next it gives 
+style tag color ie blue and then gives priority to inline css pink
+depends on what we write first ie on top */

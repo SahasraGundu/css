@@ -1,0 +1,39 @@
+/* 
+1)
+div{
+    height:100px;
+    width:100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+
+
+
+*{
+    padding:0;
+    margin:0;
+
+    /* by default we shld put this for creating anything  */
+    color:white;
+}
+
+#navbar{
+    height:60px;
+    background-color: #0f1111;
+}
+
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right:200px;
+    text-decoration: none;
+
+    /* to make the underlines remove for anchors when we 
+    are making them as links */
+}

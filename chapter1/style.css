@@ -1,0 +1,127 @@
+/* setting foreground color */
+
+h1{
+    color:green;
+}
+
+p{
+    color:green;
+}
+
+/* button{
+    color:blueviolet;
+} */
+
+/* setting background color */
+body{
+    background-color:rgb(255,255,0); 
+    /* background-color: #00ff00; */
+}
+
+/* button{
+    background-color: green;
+} */
+
+/* we wrote two properties for button so we can write at a time also */
+
+button{
+    color:green;
+    background-color:white;
+}
+
+/* so using one selecter we can write so many properties */
+
+
+/* *{
+    color:blue;   sets everything in blue color at a time for all elements 
+} */
+
+
+#headingOne{
+    color:pink;
+}
+#headingTwo{
+    color:brown;
+}
+
+.myClass{
+    color:aquamarine;
+}
+
+#para{
+    text-align:right;  
+    /* so sets the lorem para from right is aligned */
+}
+
+#headingOne{
+    text-align: center;
+}
+
+#head{
+    text-decoration: underline;
+
+    /* text-decoration: red underline; */
+    /* text-decoration: wavy underline; */
+    /* text-decoration: red dotted underline; */
+
+    /* overline=gives line upon text and linethrough cuts the content witha line */
+}
+
+a{
+    text-decoration: none;
+
+    /* for all the links kept with anchor tag it gives an underline 
+    by default so if we dont want it we do it as none */
+}
+
+#h1{
+    font-weight:normal;
+
+    /* font-weight: 100; */
+
+    /* by default headings are given bold and dark */
+}
+
+#h2{
+    font-weight: bold;
+    /* font-weight: 250; */
+}
+
+#h3{
+    font-weight: bolder;
+    /* font-weight: 700; */
+}
+
+#h4{
+    font-weight: lighter;
+    /* font-weight: 900; */
+}
+
+#parag{
+    font-family:arial;  
+    /* sets the font of the para */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* if browser not supporting segoe ui then uses tahoma if not geneva like that 
+    it works */
+}
+
+
+#one{
+    font-size: 225px;
+    /* line-height:2px; overlaps becoz height is very small */
+    /* normal para 16px .and 1px is very;small dont use it*/
+    line-height:20px; 
+    /* gives some space in between becoz height is increased */
+    text-transform: uppercase;
+}
+
+#two{
+    font-size: 100;
+}
+
+#three{
+    font-size: 10;
+}
+
+
+

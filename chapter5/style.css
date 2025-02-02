@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    /* (takes time to hover for 2sec) */
+    transition-timing-function: steps(5);
+    /* (style of transition in 5 steps) */
+    transition-delay: 1s;
+    /* (waits a sec and then transition starts) */
+
+    /* transition: font-size 2s ease-in-out 1s; */
+    /* property name | duration | timing-function | delay */
+
+}
+
+div:hover{
+    background-color: red;
+    /* (if we hover on box with cursor it chnages to red) */
+    color: white;
+    font-size: 20px;
+    /* transform: rotate(180); */
+     /* transform: scale(2);   */
+    /* makes it bigger 2 times */
+    /* transform: translate(50px); */
+    /* makes it move 50px left and right */
+    transform: skew(90);
+}
+
+div:active{
+    background-color: pink;
+    /* (if we hold and click it chnages) */
+}
+

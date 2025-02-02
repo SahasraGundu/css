@@ -1,0 +1,51 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position:static;
+    /* by deafult the position of elements is static */
+    /* if the element is static then the bottom things doesnot work 
+    top: 50px;
+    bottom:50px; */
+}
+
+#box2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    /* (then gives the box 10px distance from top and 10px space from left) */
+}
+
+#box3{
+    position: absolute;
+    /* (box 4 gets backside of box3 (becoz 3rd boox stays at that place only )) */
+    /* top: 10px;
+    left: 20px; */
+    /* (from top it is 10px and from left it is 20px ie it goes to the left of the document) 
+    if it is absoute it should not be static*/
+    top: 500px;
+    /* (we can observe that the box is also moving when we scroll) */
+    left: 20px;
+}
+
+#box4{
+    position: fixed;
+    /* (if we scroll also it is fixed and it doesnot move) */
+    top:0px;
+}
+
+#box5{
+    position: sticky;
+    top: 0px;
+    /* so when box 5 comes(appear)(when it comes to 0px)  when we scroll from then it doesnot move  */
+}
+
+
+
+
+

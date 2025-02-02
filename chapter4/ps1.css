@@ -1,0 +1,78 @@
+/* 
+1)
+
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+li{
+    list-style-type: none;
+    (removes the dots )
+} */
+
+
+
+/* 
+2)
+
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    (comes center of that row)
+    align-items: center;
+    (comes center of the container)
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+
+} */
+
+
+div{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+
+@media(width:600px){
+    div{
+        background-color: red;
+        /* (so when 600px occurs on browser it chnges to red color 
+        or we can put any property to chnage like height or width etc) */
+    }
+}
+
+@media(min-width:600px){
+    div{
+        background-color: green;
+        /* (if grater than 600 it change sto green) */
+    }
+}
+
+@media(max-width:600px){
+    div{
+        background-color: green;
+        /* (if less than 600 it change sto green) */
+    }
+}
+
+/* to set for range */
+@media(max-width:200px)and(min-width:300px){
+    div{
+        background-color:blue;
+    }
+}

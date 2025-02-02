@@ -1,0 +1,209 @@
+<!--html-structure and layout
+css-style 
+js-logic 
+
+
+css-cascading style sheets :language used to describe style of a document
+basic syntax:
+
+h1{
+    color:red
+}
+    h1 is selector,color is property , red is value
+
+    Including style:
+
+    1)inline css:
+    <h1 style="coloe:red"> apna college </h1>
+
+    2)<style> tag:
+        <style>
+            h1{
+            color:red;
+            }
+        </style>
+    this should be written in head 
+
+    3)Externl stylesheet:
+    writing css in a seperate document and linking it with 
+    html file.mostly we will use this .
+    proffesional way is this.
+    we create seperate html and css files and link them together
+    
+    to link them we put this in html head:
+    <link rel="stylesheet" href="filename.css">
+
+    if we use both inline and external style then inline 
+    only gets first priority.
+
+    so use external css mostly.
+
+
+
+
+    color property:
+    used to set the foreground color:
+    color:red;
+    color:pink; etc----
+
+    foreground is front color,background is back color;
+    text,element like button,link is foreground,thing which covers these 
+    are background
+        we using external css...
+        this is syntax for set foreground color.
+            h1{
+            color:red;
+            }
+
+    
+
+    background color property:
+    to set the color of background
+
+    background-color:red;
+    background-color:pink; etc---
+
+
+    color systems:
+
+
+
+    1)rgb(red,green,blue)
+    color:rgb(255,0,0)gives red(0-255)
+    color:rgb(0,255,0)gives green(0-255)
+    color:rgb(0,0,0)gives black
+    color:rgb(255,255,255)gives white
+
+    background-color:rgb(255,255,0); gives yellow
+
+    2)
+    HEX(Hexadecimal)(0-15(0-9)(A-F)) total 16 
+    color:#ff0000; gives red
+    color:#00ff00; gives green
+    use coolers website to set a color palette:for hex
+
+
+    selectors:
+
+    1)universal selector
+    *{}
+    *=asterisk
+    &=ampersand
+    to make everything what we need at a time 
+
+    2)element selector
+    h1{}
+
+    *{
+    color:blue;
+    }
+
+    h1{
+    color:red;
+    }
+
+    so first universal gets executed and next h1 gets updated
+    so css comes from top to bottom 
+
+    element selector for each element 
+
+    3)Id selector
+    #myId{}
+
+    id=unique name
+    <h1 id="headingOne">my heading one</h1> this we write in html
+    so in css we should write
+
+    #headingOne{
+    color:red;
+    }
+        we should give one id for only one element .
+
+
+    4)class selector
+    .myClass{}
+
+    we can set class like we set class
+    so if we want to work on more than one elemnts
+
+    <h1 class="myClass">my name is</h1>
+    <p class="myClass">my class is btech</p>
+
+    .myClass{
+    color:aquamarine;
+    }
+
+    we should not give id for two elemnts myClass
+
+
+    type .myclass and enter creates a div with class name is myclass
+    and type #box creates a div with an id name is box
+
+
+    text properties:
+
+    1)text-align
+
+    text-align:left/right/center
+
+    div-parent
+      |           = (parent class relationship)hierarichal
+    p/h1-child
+
+    or 
+    text-align:start;  start=left
+    text-align:end;    end=right
+
+    2)text-decoration
+
+    text-decoration:underline/overline/line-through
+
+    we can use mdn website
+    type mdn space any topic of css for detailed info
+
+    3)font weight
+    how much light or dark is the text
+
+    font-weight:normal/bold/bolder/lighter
+    font-weight:100-900
+
+    lightest shade=100
+    darkest shade=900
+    bold=400 and above for more darker
+    we need lighter than bold the <400
+
+    4)font-family=style of font
+
+    font-family:arial;
+    browsers have limited fonts for different browsers
+    font-family:arial,roboto;
+    first priority arial 
+    if arial fails uses roboto
+
+    5)units in css:
+    size(big or small)
+    
+
+    1)Absolute units:measure the size 
+    pixels:(most useful measure in css)(like cm,m,mm)
+    96px=1inch(2.54 cm)
+    font-size:2px
+
+
+    6)line-height property
+    how much my text height should be
+
+
+    line-height:2px;
+    line-height:normal;
+
+    7)text-transform
+        changing of case
+
+        
+    text-transform:uppercase/lowercase/capitalize/none
+
+
+
+
+--!
